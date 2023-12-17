@@ -82,7 +82,7 @@ function btnSum() {
         console.log(newNum);
       }
     } else {
-      alert("มีบางอย่างไม่ถูกต้อง");
+      alert("something went wrong");
     }
     checkSumAll();
   };
@@ -93,7 +93,7 @@ function btnSum() {
         number = 0;
         counterNum.nodeValue = newNum;
     }else{
-        alert('มีบางอย่างไม่ถูกต้อง')
+        alert('something went wrong')
     }
     checkSumAll();
   };
@@ -104,7 +104,7 @@ function btnSum() {
         newNum = newNum - oldNumb;
         counterNum.nodeValue = newNum;
     } else {
-      alert("มีบางอย่างไม่ถูกต้อง");
+      alert("something went wrong");
     }
     checkSumAll();
   };
@@ -115,7 +115,7 @@ function btnSum() {
       newNum = newNum - newNum;
       counterNum.nodeValue = newNum;
     } else {
-      alert("มีบางอย่างไม่ถูกต้อง");
+      alert("something went wrong");
     }
     checkSumAll();
     divItem.remove();
